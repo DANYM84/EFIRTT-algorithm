@@ -22,8 +22,10 @@ if __name__ == '__main__':
     website_label.grid(row=4, column=0)
 
     # Entries
-    
+    window.configure(bg="#F0DFAD")
+    website_label.configure(bg="#F0DFAD")
     
     add_button = Button(text="Procurar Pasta", width=36, command=browse_button)
     add_button.grid(row=4, column=1, columnspan=2)
+    add_button.configure(bg="#8f5c38", fg="#EDF0DA")
     window.mainloop()
