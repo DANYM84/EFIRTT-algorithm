@@ -1,3 +1,4 @@
+
 # EFIRTT - Image Recognition and Translation Tool
 
 EFIRTT (Image Recognition and Translation Tool) is a Python algorithm designed to recognize and translate written text in images, analyze the frequency of each word in English, and provide the results to the user. This tool uses the Tkinter library to create a graphical interface and the OpenCV library for image processing.
